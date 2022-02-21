@@ -1,0 +1,114 @@
+* {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    position: relative;
+    font-family: "Goudy Bookletter 1911", sans-serif;
+    font-size: 20px;
+    background-color: #FDF8F5;
+    color: #4F4846;
+    margin: auto 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #aaaaaa;
+    width: 100%;
+    z-index: 2;
+}
+
+h1 {
+    position: relative;
+    margin: 5% auto;
+    color: #500050;
+    z-index: 1;
+}
+
+.nav li {
+    display: inline;
+    margin: 0 20px;
+    font-size: larger;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: #202020;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.section {
+    float: left;
+    margin: 0 0.65%;
+    width: 32%;
+    height: 300px;
+    color: #ffffff;
+}
+
+.section img {
+    margin: 2% auto;
+}
+
+.red {
+    background-color: #aa0000;
+}
+
+.green {
+    background-color: #00aa00;
+}
+
+.blue {
+    background-color: #0000aa;
+}
+
+.brown {
+    background-color: #cc8888;
+}
+
+.centered {
+    align-items: center;
+    text-align: center;
+}
+
+.contact {
+    margin: 40% 0 10px 0;
+}
+
+.contact p {
+    margin-bottom: 5px;
+}
+
+.contact button {
+    margin: 15px auto;
+    font-size: 20px;
+    background-color: #808080;
+}
+
+.footer {
+    margin-bottom: 0;
+}
+
+.footer h4 {
+    margin-bottom: 0;
+}
+
+.footer p {
+    margin-top: 0;
+}
+
+.border {
+    border: #884444 solid 5px;
+    width: 450px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    border-radius: 20px;
+}
